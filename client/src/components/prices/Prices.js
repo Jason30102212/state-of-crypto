@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import isEmpty from '../../validation/is-empty'
+import {
+  CRYPTO_COMPARE_URL,
+  CRYPTO_COMPARE_TEMP,
+  CRYPTO_COMPARE_KEY
+} from '../../config/api/cryptoCompareConsts';
 
 class Prices extends Component {
 
@@ -10,8 +15,9 @@ class Prices extends Component {
 
   componentDidMount = () => {
     console.log("In componentDidMount");
+    const url = CRYPTO_COMPARE_URL + CRYPTO_COMPARE_TEMP + CRYPTO_COMPARE_KEY;
     // Add URI to API
-    axios.get(``)
+    axios.get(url)
       .then(res => {
         console.log(res);
         this.setState({prices: res.data})
