@@ -23,7 +23,7 @@ CONTENT SOURCES:
 
 SCRUM:
 
-  Product Backlog (Prioritized list of features):
+- Product Backlog (Prioritized list of features):
     - 2/17/2019
       - TRANSFERED TO SPRINT BACKLOG: Priority 1. Create Basic Components for layout
       - TRANSFERED TO SPRINT BACKLOG: Priority 2. Extract Cryptocurrency data to display and create a component
@@ -31,18 +31,41 @@ SCRUM:
       - TRANSFERED TO SPRINT BACKLOG: Priority 1. Will need to create component to display top ten cryptos compared to USD
       - TRANSFERED TO SPRINT BACKLOG: Priority 1. Will need to create component to display top ten cryptos compared to BTC
       - TRANSFERED TO SPRINT BACKLOG: Priority 2. Will consider creating a  component to display specific cryptos and data based on user selection
+      - Priority 1. Front page will need to be updated
+      - Priority 2. Further ideas will need to be generated to incorporate into site
+      - Priority 3. Footer needs to be fixed for all pages
 
-  Sprint Backlog:
+- Sprint Backlog:
     - 2/17/2019
     - COMPLETE: Priority 1. Create Basic Components for layout
     - COMPLETE: Priority 2. Extract Cryptocurrency data to display
     - COMPLETE: Priority 1. Explore the CryptoCompare API and think if ideas for site components
-    - Priority 1. Will need to create component to display top ten cryptos compared to USD
-    - Priority 1. Will need to create component to display top ten cryptos compared to BTC
-    - Priority 2. Will consider creating a  component to display specific cryptos and data based on user selection
+    - COMPLETE: Priority 1. Will need to create component to display top ten cryptos compared to USD
+    - COMPLETE: Priority 1. Will need to create component to display top ten cryptos compared to BTC
+    - COMPLETE: Priority 2. Will consider creating a  component to display specific cryptos and data based on user selection
 
 
-  SPRINT LOG:
+- SPRINT LOG:
+
+  - 2/19/2019 Third Sprint
+    - Plan:
+      - 2/19/2019
+        - Will need to create component to display top ten cryptos compared to USD
+        - Will need to create component to display top ten cryptos compared to BTC
+        - Will consider creating a component to display specific cryptos and data based on user selection
+    - Build:
+      - 2/19/2019
+        - Created component for both top ten for BTC and USD, but incorporated them into one component showing top ten for drop down selection
+    - Test:
+      - 2/19/2019
+        - Component seems to be working correctly
+        - Link to route working correctly
+    - Review:
+      - 2/19/2019
+        - Front page will need to be updated
+        - Further ideas will need to be generated to incorporate into site
+        - Footer needs to be fixed for all pages
+
     - 2/18/2019 Second Sprint
       - Plan:
         - 2/18/2019

@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+
+.styless {
+  list-style-type: none;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.mini-icon {
+  height: 20px;
+  width: 20px;
+}

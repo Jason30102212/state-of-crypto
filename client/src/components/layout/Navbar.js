@@ -24,7 +24,12 @@ class Navbar extends Component {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link ubuntu-font link-style" href="#">Home</a>
+                <a className="nav-link ubuntu-font link-style" href="/">HOME</a>
+              </li>
+            </ul>
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <a className="nav-link ubuntu-font link-style" href="/top-ten">TOP TEN BTC</a>
               </li>
             </ul>
           </div>
